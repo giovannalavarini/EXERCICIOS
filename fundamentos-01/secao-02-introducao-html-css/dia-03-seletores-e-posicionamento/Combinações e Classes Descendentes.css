@@ -1,0 +1,63 @@
+ol li {
+  background-color: yellow;
+}
+
+ol li:nth-child(2n) /*pode ser 2n ou even*/{
+  color: green;
+}
+
+ol li:nth-child(2n + 1) /*pode ser 2n+1 ou odd*/{
+  text-transform: uppercase;
+}
+
+h1 {
+  color: red;
+}
+
+h1 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.linguagens li:nth-child(-n + 3) {
+  color: blue;
+}
+
+.java {
+  background-color: pink;
+}
+
+.links:hover {
+  font-weight: bold;
+}
+
+#StackOverflow {
+  color: orange;
+}
+
+#W3Schools {
+  color:#04AA6D;
+}
+
+#MDN {
+  color: black;
+}
+
+#DevDocs {
+  color: yellow;
+}
+
+#Trybe {
+  color: green;
+}
+
+
+
