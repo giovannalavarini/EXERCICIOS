@@ -1,0 +1,59 @@
+div:hover {
+  border: 2px solid red;
+}
+
+div:nth-last-of-type(1) {
+  background-color: green;
+}
+
+div:nth-last-of-type(2) {
+  background-color: blue;
+}
+
+div:nth-last-of-type(3) {
+  background-color: orange;
+}
+
+div:nth-last-of-type(4) {
+  background-color: deeppink;
+}
+
+div:nth-last-of-type(5) {
+  background-color: gold;
+}
+
+div:nth-last-of-type(1) > h3 {
+  color:gray;
+  font-size: 15px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+}
+
+div:nth-last-of-type(2) > h3 {
+  color:gray;
+  font-size: 15px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+}
+
+div:nth-last-of-type(3) > h3 {
+  color: gray;
+  font-size: 15px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  height: 80px;
+}
+
+div:nth-last-of-type(4) > h3 {
+  color:gray;
+  font-size: 15px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+}
+
+div:nth-last-of-type(5) > h3 {
+  color:gray;
+  font-size: 15px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+}
