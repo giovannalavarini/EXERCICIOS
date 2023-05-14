@@ -2,27 +2,27 @@
 
 // let saldo = 1000;
 
-// function adicionaSaldo(valor) {
-//   return saldo + valor;
-// }
-// function subtraiSaldo(valor) {
-//   return saldo - valor;
-// }
-// function multiplicaSaldo(valor) {
-//   return saldo * valor;
-// }
-// function divideSaldo(valor) {
-//   return saldo / valor;
-// }
+// // function adicionaSaldo(valor) {
+// //   return saldo + valor;
+// // }
+// // function subtraiSaldo(valor) {
+// //   return saldo - valor;
+// // }
+// // function multiplicaSaldo(valor) {
+// //   return saldo * valor;
+// // }
+// // function divideSaldo(valor) {
+// //   return saldo / valor;
+// // }
 
-// console.log(adicionaSaldo(500));
-// console.log(subtraiSaldo(500));
-// console.log(multiplicaSaldo(2));
-// console.log(divideSaldo(2));
+// // console.log(adicionaSaldo(500));
+// // console.log(subtraiSaldo(500));
+// // console.log(multiplicaSaldo(2));
+// // console.log(divideSaldo(2));
 
-//// Exercício - Parâmetros de funções
+// //// Exercício - Parâmetros de funções
 
-// 1-
+// // 1-
 // let clientesTrybeBank = ['Ada', 'John', 'Gus'];
 
 // function adicionaCliente(cliente) {
@@ -60,15 +60,15 @@
 // console.log(excluiCliente('John'));
 // console.log(excluiCliente('Giovanna'));
 
-// clientesTrybeBank.splice(index, 1); - não entendi esse index,1
+// // clientesTrybeBank.splice(index, 1); - não entendi esse index,1
 
-// Exercícios - Funções – Diminuição de complexidades ????????????
+// // Exercícios - Funções – Diminuição de complexidades ????????????
 
 // let clientesTrybeBank = ['Ada', 'John', 'Gus'];
 
 // function validaCliente(cliente) {
-//   if (typeof cliente !== 'string') {
-//     return 'O parâmetro passado deve ser do tipo "string"!';
+//   if (typeof cliente !== 'string') {//VALIDANDO SE O VALOR DE ENTRADA É UMA STRING
+//     return 'O parâmetro passado deve ser do tipo "string"!'; //MENSAGEM QUE SERÁ RETORNADA SE O VALOR NAO FOR UMA STRING
 //   } else {
 //     return true;
 //   }
@@ -102,7 +102,3 @@
 // console.log(removeCliente('Barney')); // Cliente não encontrada(o)
 // console.log(removeCliente('John')); // Cliente excluída(o) com sucesso.
 // console.log(clientesTrybeBank); // [ 'Ada', 'Gus' ]
-
-
-
-
