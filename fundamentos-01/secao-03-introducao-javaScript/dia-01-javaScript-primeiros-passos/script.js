@@ -93,19 +93,21 @@
 //   console.log('zero');
 // }
 
-// 05 -
-// let soma = a + b + c;
-// let anguloPositivo = a > 0 && b > 0 && c > 0;
-// Let anguloInvalido = a < 0 || b < 0 || c < 0;
+// 05 -  Utilize if/else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+let a = 50;
+let b = 100;
+let c = 30;
+let soma = a + b + c;
+let anguloPositivo = a > 0 && b > 0 && c > 0;
+let anguloInvalido = a < 0 || b < 0 || c < 0;
 
-// if (soma === 180) {
-//   console.log('true');
-// } else if (soma !== 180) {
-//   console.log('false');
-// } else {
-//   console.log('erro');
-// }
-AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA AJUDA 
+if (soma === 180) {
+  console.log('true');
+} else if (soma !== 180) {
+  console.log('false');
+} else {
+  console.log('erro');
+}
 
 // 06 -
 // let pecaXadrez = 'bispo';
